@@ -1,0 +1,12 @@
+.Smurf {
+    border: 1px solid black;
+    max-width: 800px;
+    margin: auto;
+}
+
+.SmurfForm {
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid dodgerblue; */
+    
+}
