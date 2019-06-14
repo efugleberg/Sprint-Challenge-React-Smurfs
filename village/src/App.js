@@ -26,19 +26,7 @@ class App extends Component {
         smurfs: res.data
       });
     })
-    .catch(error => alert('error'));
-  }
-
-  postSmurf = smurf => {
-    axios
-    .post('http://localhost:3333/smurfs', smurf)
-    .then(res => {
-      console.log('Post Smurf response', res);
-      this.setState({
-        smufs: res.data
-      });
-    })
-    .catch(err => alert('Post error'))
+    .catch(error => alert('error', error));
   }
 
 
